@@ -1,0 +1,20 @@
+# https://github.com/yesglot/yesglot.toml
+[yesglot]
+version = 1
+
+[project]
+id = "019e77f1-6c40-7786-853a-c42db9f28a2a"
+technology = "ruby_on_rails"
+tracked_branch = "main"
+
+[source_language]
+tag = "en"
+path = "example-project/config/locales/en.yml"
+
+[[target_language]]
+tag = "es"
+path = "example-project/config/locales/es.yml"
+
+[[target_language]]
+tag = "tr"
+path = "example-project/config/locales/tr.yml"
