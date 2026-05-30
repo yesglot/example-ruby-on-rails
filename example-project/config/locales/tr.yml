@@ -1,0 +1,21 @@
+tr:
+  app_name: "Yesglot Demo"
+  navigation:
+    home: "Ana sayfa"
+    pricing: "Fiyatlandirma"
+    sign_in: "Giris yap"
+  home:
+    index:
+      eyebrow: "Rails yerellestirmesi"
+      hero_title: ""
+      hero_copy: "Tek bir yerden %{count} cok dilli projeyi yonetin."
+      notifications:
+        one: "%{count} okunmamis bildiriminiz var."
+        other: "%{count} okunmamis bildiriminiz var."
+      primary_cta: "Ceviriye basla"
+      secondary_cta: "Fiyatlari gor"
+      features_title: "Ekiplerin genelde ihtiyac duydugu seyler"
+      features:
+        machine_translation: "Yeni anahtarlari makine cevirisi ile once cevirin"
+        review_workflows: ""
+        release_tracking: "Dil degisikliklerini surumlerle uyumlu tutun"

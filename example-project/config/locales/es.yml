@@ -1,0 +1,21 @@
+es:
+  app_name: "Demo de Yesglot"
+  navigation:
+    home: "Inicio"
+    pricing: "Precios"
+    sign_in: "Iniciar sesion"
+  home:
+    index:
+      eyebrow: "Localizacion para Rails"
+      hero_title: ""
+      hero_copy: ""
+      notifications:
+        one: "Tienes %{count} notificacion sin leer."
+        other: "Tienes %{count} notificaciones sin leer."
+      primary_cta: "Empezar a traducir"
+      secondary_cta: "Ver precios"
+      features_title: "Lo que los equipos suelen necesitar"
+      features:
+        machine_translation: "Pretraduce nuevas claves con traduccion automatica"
+        review_workflows: ""
+        release_tracking: "Mantiene los cambios de idioma alineados con cada version"

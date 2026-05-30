@@ -1,0 +1,28 @@
+<header>
+  <p><%= t("app_name") %></p>
+  <nav>
+    <%= link_to t("navigation.home"), root_path %>
+    <%= link_to t("navigation.pricing"), "#" %>
+    <%= link_to t("navigation.sign_in"), "#" %>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <p><%= t(".eyebrow") %></p>
+    <h1><%= t(".hero_title") %></h1>
+    <p><%= t(".hero_copy", count: @projects_count) %></p>
+    <p><%= t(".notifications", count: @unread_notifications) %></p>
+    <button><%= t(".primary_cta") %></button>
+    <button><%= t(".secondary_cta") %></button>
+  </section>
+
+  <section>
+    <h2><%= t(".features_title") %></h2>
+    <ul>
+      <li><%= t(".features.machine_translation") %></li>
+      <li><%= t(".features.review_workflows") %></li>
+      <li><%= t(".features.release_tracking") %></li>
+    </ul>
+  </section>
+</main>
